@@ -1,0 +1,104 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-image:linear-gradient(rgba(250,250,250,1),rgba(250,250,250,1),rgba(250,0,0,0.1),rgba(250,0,0,0.1),rgba(250,0,0,0.2),rgba(250,0,0,0.2),rgba(250,0,0,0.3));
+	background-size: cover;
+}
+
+header {
+	padding:7px 0px 10px 0px;
+	text-align:center;
+	font-size: 25px;
+	width: 100%;
+	background-image:radial-gradient(rgba(250,250,250,1.0),rgba(250,250,250,1.0),rgba(0,0,0,1),rgba(0,0,0,1));
+	color:black;
+	border:2px solid white;
+	font-weight: bold;
+}
+
+#menu li span{
+ padding-left: 15px;
+}
+.logo1
+{
+	height:55px;
+	border:2px solid white;
+	padding-top: 9px;
+}
+
+#menu li a{
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#container{
+	margin-left: 250px;
+	margin-right: 100px;
+}
+
+#upload{
+	margin-top: 10px;
+	align-items: left;
+}
+
+#title{
+	margin-top: 20px;
+	color:black;
+	margin-bottom: 20px;
+}
+.details
+{
+	width:700px;
+	height:250px;
+	position: absolute;
+	left:500px;
+	top:180px;
+}
+.email, .phone
+{
+	font-family: Cambria;
+	font-size: 20px;
+	margin: 0px;
+	margin-top:10px;
+}
+
+.issue label{
+	font-family:calibri;
+	font-size: 18px;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+  max-width: 95%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #444;
+  text-align: center;
+  padding: 8px;
+}
+
+#customers td:nth-child(2), #customers td:nth-child(3){
+	text-align: left;
+}
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nodue{
+	color:rgb(0,150,0);
+}
+.due{
+	color:red;
+}

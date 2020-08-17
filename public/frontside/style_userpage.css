@@ -1,0 +1,59 @@
+
+.welcome label
+{
+	color:blue;
+	padding-top: 10px;
+	font-family: 'Cambria';
+	font-size: 40px;
+}
+.welcome label span{
+	color:red;
+}
+
+#name{
+	text-align: left;
+	font-size: 16px;
+	align-items: left;
+}
+#phone{
+	text-align: left;
+	font-size:14px;
+	color:black;
+}
+
+hr{
+	margin-bottom:-10px;
+}
+
+#contact {
+	margin-left:33%;
+}
+
+#menu li span{
+ padding-left: 15px;
+}
+
+#menu li a{
+	font-size: 16px;
+	text-decoration: none;
+
+}
+.logo1 {
+    width: 100%;
+    padding: 15px 14px 15px;
+    box-sizing: border-box;
+    background: #1b93e1;
+    text-align: center;
+}
+.sidebar-icon {
+    margin-top: -2px;
+    border: 1px solid #1b93e1;
+    text-align: right;
+    line-height: 1;
+    font-size: 19px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    color: #1b93e1;
+    background: #fff;
+    float: none;
+}
